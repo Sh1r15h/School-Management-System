@@ -1,0 +1,20 @@
+SMS MANAGEMENT - NAVIGATION REPAIRED
+
+Please extract this ZIP into a NEW folder, not over the previous project.
+Open PowerShell in the folder containing package.json and run:
+
+  npm install
+  npm run dev
+
+Open the localhost URL printed by Vite.
+
+Demo login:
+  admin
+  admin123
+
+The sidebar uses real <a href="#..."> links and listens for the browser hashchange event.
+Every sidebar item changes the URL and renders a distinct page. Student, employee, class,
+subject, fees, library, expenses and exam lists have add/edit/delete/search workflows using
+browser localStorage. Some secondary forms (job letter, fee structure and timetable setup)
+are UI prototypes. The included SQL file is a schema reference; the app is not connected to
+MySQL yet.
